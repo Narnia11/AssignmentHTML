@@ -1,69 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My First HTML Page</title>
 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>My First HTML Page</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
 
-    <body>
-        <header>
-            <h1>Our Lovly Pets</h1>
-            <nav>
-                <ul>
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="https://unsplash.com/s/photos/pets">Pet photos</a></li>
-                    <li><a href="https://www.petplace.com/article/dogs/pet-care/top-1200-pet-names/">Pet names</a></li>
-                </ul>
-            </nav>
+<body>
+    <header>
+        <h1 id="pageTitle">Our Lovly Pets</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="https://unsplash.com/s/photos/pets">Pet photos</a></li>
+                <li><a href="https://www.petplace.com/article/dogs/pet-care/top-1200-pet-names/">Pet names</a></li>
+            </ul>
+        </nav>
+        <ul>
             <li><a href="login.html">Log in with BankID</a></li>
-        </header>
-
-        <main>
-            <h2>Is my dog the most beautiful dog in the world?</h2>
-            <p>For every dog owner, his dog is the most beautiful, smartest, and unique dog in the world.But is there an international standard for measuring the beauty of dogs?</p>
-            <article>
-                <img src="pony.jpeg" width="400" height="auto" class="article_image" alt="">
-                <h3>"Golden Ratio" beauty measuring theory</h3>
-                <p>During the European Renaissance, renowned artists and architects used an equation known as the "golden ratio" to map out their masterpieces. Thousands of years later, scientists adopted this mathematical formula to help explain why some people are considered beautiful…and others are not. (https://www.oprah.com/oprahshow/measuring-facial-perfection-the-golden-ratio)</p>
-                <p>This theory can be used for any creature that we care about its beauty.</p>
-            </article>
-            <article>
-                <h3>Article2 headline</h3>
-                <p>paragraph 1</p>
-                <p>paragraph 2</p>
-            </article>
-        </main>
-        <aside><h2>Types of pets</h2>
+        </ul>
+    </header>
+<div id="container">
+    <main>
+        <h2>Is my dog the most beautiful dog in the world?</h2>
+        <p>For every dog owner, his dog is the most beautiful, smartest, and unique dog in the world.But is there an international standard for measuring the beauty of dogs?</p>
+        <article>
+            <img src="pony.jpeg" width="400" height="auto" class="article_image" alt="">
+            <h3>"Golden Ratio" beauty measuring theory</h3>
+            <p>During the European Renaissance, renowned artists and architects used an equation known as the "golden ratio" to map out their masterpieces. Thousands of years later, scientists adopted this mathematical formula to help explain why some people are considered beautiful…and others are not. (https://www.oprah.com/oprahshow/measuring-facial-perfection-the-golden-ratio)</p>
+            <p>This theory can be used for any creature that we care about its beauty.</p>
+        </article>
+        <article>
+            <h3>Article2 headline</h3>
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+        </article>
+    </main><aside>
+        <h2>Types of pets</h2>
         <ul>
             <li>
-                <h2>Dogs</h2> 
+                <h2>Dogs</h2>
                 <ol>
-                    <li><p>shihtzu</p></li>
-                    <li><p>Chihuahua</p></li>
-                    <li><p>Pincher</p></li>
-                </ol>              
+                    <li>
+                        <p>shihtzu</p>
+                    </li>
+                    <li>
+                        <p>Chihuahua</p>
+                    </li>
+                    <li>
+                        <p>Pincher</p>
+                    </li>
+                </ol>
             </li>
             <li>
                 <h2>Cats</h2>
                 <ol>
-                    <li><p>Persian</p></li>
-                    <li><p>British</p></li>
-                    <li><p>American</p></li>
+                    <li>
+                        <p>Persian</p>
+                    </li>
+                    <li>
+                        <p>British</p>
+                    </li>
+                    <li>
+                        <p>American</p>
+                    </li>
                 </ol>
             </li>
             <li>
                 <h2>Birds</h2>
                 <ol>
-                    <li><p>Cockatiel</p></li>
-                    <li><p>Parrot</p></li>
-                    <li><p>Lovebird</p></li>
+                    <li>
+                        <p>Cockatiel</p>
+                    </li>
+                    <li>
+                        <p>Parrot</p>
+                    </li>
+                    <li>
+                        <p>Lovebird</p>
+                    </li>
                 </ol>
             </li>
         </ul>
-        </aside>
-        <footer>
-            <p>&copy; Narges Hekmatnia</p>
-        </footer>
-    </body>
+    </aside>
+</div>
+    <footer>
+        <p>&copy; Narges Hekmatnia</p>
+    </footer>
+</body>
+
 </html>

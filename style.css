@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif; 
+    width: 1024px;
+    margin: auto;
+    background-color: beige;
+ }
+ #pageTitle{
+    display: inline-block;
+ }
+ nav{
+    display: inline-block;
+ }
+ ul li{
+    list-style: none;
+ }
+ nav ul li{
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid black;
+ }
+ header>ul{
+    display: inline-block;
+    float: right;
+ }
+ a{
+    text-decoration: none;
+ }
+ main{
+    background-color: cornsilk;
+    display: inline-block;
+    width: 900px;
+ }
+ article{
+    display: inline-block;
+    width: 500px;
+    background-color: beige;
+ }
+ aside{
+    display: inline-block;
+    width: 124px;
+    background-color: antiquewhite;
+ }
+ footer{text-align: center;}
+ 
