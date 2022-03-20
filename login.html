@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>Login page</title>
+        <link href="login.css" rel="stylesheet" />
     </head>
     <body>
         <header>
-            <h1>Logo</h1>
+            <h1 id="pageTitle">Our Lovly Pets</h1>
             <nav>
                 <ul>
                     <li>About us</li>
@@ -14,27 +15,30 @@
                     <li><a href="login.html">Log in to your account</a></li>
                 </ul>
             </nav>
-            <a href="index.html" >Home</a></li>
+            <ul>
+                <li><a href="login.html">Log in with BankID</a></li>
+            </ul>
         </header>
+
         <main>
             <h3>Login</h3>
             <form action="">
                 <div>
                     <label for="">  User Name</label>
-                    <input type="text">
+                    <input type="text" class="form-control">
                 </div>
 
                 <div>
                     <label for=""> Password</label>
-                    <input type="password">
+                    <input type="password" class="form-control">
                 </div>
 
                 <div>
-                    <button type="submit">Login</button>
+                    <button type="submit" class="form-control">Login</button>
                 </div>
                
                 <div>
-                    <button type="submit">Reset Data</button>
+                    <button type="reset" id="reset-button" class="form-control">Reset Data</button>
                 </div>
             </form>
         </main>
